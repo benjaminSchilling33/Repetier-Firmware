@@ -22,7 +22,7 @@
 #define UI_PRINTER_NAME "RF2000v2"
 
 /** \brief Number of extruders */
-#define NUM_EXTRUDER 2 // 1 = Single, 2 = Dual
+#define NUM_EXTRUDER 1 // 1 = Single, 2 = Dual
 
 /** \brief Specifies the maximal drive over millimeters which the z-endstop can bear without getting damaged or degraded */
 /*
@@ -281,7 +281,7 @@ The codes are only executed for multiple extruder when changing the extruder. */
 #define EXT0_DESELECT_COMMANDS ""
 
 /** \brief PWM speed for the cooler fan. 0=off 255=full speed */
-#define EXT0_EXTRUDER_COOLER_SPEED 255
+#define EXT0_EXTRUDER_COOLER_SPEED 96
 
 #if NUM_EXTRUDER > 0 && EXT0_TEMPSENSOR_TYPE < 101
 

@@ -45,13 +45,13 @@
 /** \brief Define the type of your device */
 //#define MOTHERBOARD                         DEVICE_TYPE_RF1000
 //#define MOTHERBOARD                         DEVICE_TYPE_RF2000
-//#define MOTHERBOARD                         DEVICE_TYPE_RF2000v2
+#define MOTHERBOARD                         DEVICE_TYPE_RF2000v2
 
 #ifndef MOTHERBOARD
     #error Device type (RF1000 / RF2000 / RF2000v2) is not defined. Edit Configuration.h or pass the corresponding option to the compiler.
 #endif
 #if MOTHERBOARD == DEVICE_TYPE_RF2000v2
-    #error This Mod-Firmware has not been massively tested on a RF2000v2 yet. But the firmware has been created with care. Please remove this message if you acknowledged this.
+//    #error This Mod-Firmware has not been massively tested on a RF2000v2 yet. But the firmware has been created with care. Please remove this message if you acknowledged this.
 #endif // MOTHERBOARD == DEVICE_TYPE_RF2000v2
 
 /**

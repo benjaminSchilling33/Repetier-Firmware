@@ -137,7 +137,7 @@
 
 // The extruder cooler is a fan to cool the extruder when it is heating. If you turn the etxruder on, the fan goes on.
 // Used to cool the E3D-v6 hotend as example. This is not the part fan.
-#define EXT0_EXTRUDER_COOLER_PIN -1
+#define EXT0_EXTRUDER_COOLER_PIN 32
 #define EXT1_EXTRUDER_COOLER_PIN -1
 
 // these pins are defined in the SD library if building with SD support
